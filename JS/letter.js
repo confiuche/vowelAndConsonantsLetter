@@ -1,8 +1,7 @@
-//let vow = ['a', 'e', 'i', 'o', 'u']
 function classifyLetters(word){
     //vow = 'aeiou'
-    let vow = ['a', 'e', 'i', 'o', 'u']
-    conson = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
+    let vow = ['a', 'e', 'i', 'o', 'u','A','E','I','O','U']
+    //conson = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
      newWord = word.split('')
     //  dd=[];
     //  dd.push(vow)
@@ -33,6 +32,7 @@ function classifyLetters(word){
     
 }
  //word = ["bastion"]
-console.log(classifyLetters('bastion'))
+ console.log(classifyLetters('Bastion'))
+//console.log(classifyLetters('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'))
 
 
