@@ -1,15 +1,17 @@
 function classifyLetters(word){
     //vow = 'aeiou'
+    
+    //word = prompt('enter word')
     let vow = ['a', 'e', 'i', 'o', 'u','A','E','I','O','U']
     //conson = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
      newWord = word.split('')
-    //  dd=[];
-    //  dd.push(vow)
-    //  console.log(dd)
-     //newVowel = vow.split("")
-     //console.log(word)
+    //////  dd=[];
+    //////  dd.push(vow)
+    //////  console.log(dd)
+     //////newVowel = vow.split("")
+     ////console.log(word)
      console.log(newWord)
-     //console.log(newVowel)
+     //////console.log(newVowel)
     consonants = [];
     vowels = [];
     display = {
@@ -28,11 +30,12 @@ function classifyLetters(word){
         }
    }
     return display;
-    //word.split('')
+    
     
 }
  //word = ["bastion"]
+ //classifyLetters(word)
  console.log(classifyLetters('Bastion'))
-//console.log(classifyLetters('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'))
+
 
 
