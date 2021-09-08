@@ -1,27 +1,24 @@
 function classifyLetters(word){
     //let newWord = word.split('')
-            console.log(newWord)
+            //console.log(newWord)
     document.getElementById('sub').addEventListener('click',function(){
         
         word = document.getElementById('words').value
         
-        for(let i = 0; i<word.length; i++){
+        for(let i = 0; i<words.length; i++){
             let any =word[i];
             console.log(any)
-            if(vow.includes(word)){
-                document.getElementById('vowel').innerHTML = display.vowels.push(word)
+            if(vow.includes(any)){
+                document.getElementById('vowel').innerHTML = display.vowels.push(any)
             }else{
-                document.getElementById('consonant').innerHTML = display.consonants.push(word)
+                document.getElementById('consonant').innerHTML = display.consonants.push(any)
             }
         }
 
     })
-    /*word = prompt('enter word')*/
     let vow = ['a', 'e', 'i', 'o', 'u','A','E','I','O','U']
-    //conson = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
-     /*newWord = word.split('')*/
+     
     
-     /*console.log(newWord)*/
     consonants = [];
     vowels = [];
     display = {
