@@ -1,11 +1,10 @@
 function classifyLetters(word){
-    //let newWord = word.split('')
             //console.log(newWord)
     document.getElementById('sub').addEventListener('click',function(){
         
         word = document.getElementById('words').value
         
-        for(let i = 0; i<words.length; i++){
+        for(let i = 0; i<word.length; i++){
             let any =word[i];
             console.log(any)
             if(vow.includes(any)){
@@ -17,7 +16,6 @@ function classifyLetters(word){
 
     })
     let vow = ['a', 'e', 'i', 'o', 'u','A','E','I','O','U']
-     
     
     consonants = [];
     vowels = [];
@@ -30,5 +28,3 @@ function classifyLetters(word){
     
 }
 classifyLetters()
-
-
